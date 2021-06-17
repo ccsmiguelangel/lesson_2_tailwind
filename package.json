@@ -8,7 +8,8 @@
     "scss": "sass css",
     "scss_watch": "sass --watch css",
     "comp": "npm run scss && npm run min",
-    "min": "minify js/main.js > js/main.min.js && minify css/styles.css > css/styles.min.css"
+    "min": "minify js/main.js > js/main.min.js && minify css/styles.css > css/styles.min.css",
+    "build": "postcss css/tailwind.css -o public/css/style.css"
   },
   "keywords": [],
   "author": "",
